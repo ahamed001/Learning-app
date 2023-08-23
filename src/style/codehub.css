@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #EFFFFB;
+  margin: 0;
+}   
+
+.logo{
+    margin: 2% -2% 2% 1%;
+    width: 35px;
+    height: 35px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:linear-gradient(90deg,#87CBB9,#B9EDDD);
+}
+
+.navleft{
+    display: flex;
+    padding: 0 0px 0 0px;
+} 
+
+a{
+    text-decoration: none;
+}
+
+.navleft a{
+    padding: 10px 200px 0 250px;
+    font-weight: 300;
+    color: black;
+}
+
+.navleft a:hover{
+    background:linear-gradient(90deg,#87CBB9,#B9EDDD);
+    font-weight: 700;
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.navright{
+    display: flex;
+    list-style: none;
+    padding: 30px 0 0 0;
+}
+
+.signup{
+    color: black;
+    background-color: #98D7C2;
+    border-color: #98D7C2;
+    padding: 5px 20px 0 20px;
+    height: 30px;
+    width: 85px;
+    text-align: 12px;
+    font-size: 120%;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.signup:hover{
+    background-color: #45B08C;
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+.login{
+    margin-left: -30px;
+    color: black;
+    background-color: #8CC7C0;
+    border-color: #8CC7C0;
+    padding: 5px 20px 0 20px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.login:hover{
+    background-color: #65A9A6;
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+.homepage h1{
+    font-size: 500%;
+    color: #87CBB9;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.homepage h3{
+    text-align: center;
+    color: #3F979B;
+    font-size: 180%;
+    font-weight: 700;
+    margin-top: -50px;   
+}
+
+.label{
+    display: flex;
+}
+
+.label span{
+    color: #159895;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.email1{
+    padding: 0 180px 0 0;
+}
+
+.email2{
+    padding: 0 145px 0 0;
+}
+
+.loginpage{
+    display: flex;
+    justify-content: center;
+    background-color: #EFFFFB;
+    height: 500px;
+    width: 500px;
+    margin: 100px 100px 100px 525px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px #93BFCF;
+}
+
+.loginpage input{
+    border-radius: 5px;
+    height: 50px;
+    width: 420px;
+    font-size: 17px;
+    padding: 0 0 0 10px;
+    margin: 0 0 25px 0;
+}
+
+.loginpage button   {
+    border-radius: 32px;
+    height: 50px;
+    width: 420px;
+    margin: 20px 0 25px 0;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-color: none;
+    background-color: #64CCC5; 
+}
+
+.loginpage button:hover{
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: #159895;
+    transition: 0.3s ease-in-out;
+}
+
+.signuppage{
+    display: flex;
+    justify-content: center;
+    background-color: #EFFFFB;
+    height: 500px;
+    width: 500px;
+    margin: 100px 100px 100px 525px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px #93BFCF;
+}
+
+.signuppage input{
+    border-radius: 5px;
+    height: 50px;
+    width: 420px;
+    font-size: 17px;
+    padding: 0 0 0 10px;
+    margin: 0 0 25px 0;
+}
+
+.signuppage button   {
+    border-radius: 32px;
+    height: 50px;
+    width: 420px;
+    margin: 20px 0 25px 0;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-color: none;
+    background-color: #64CCC5; 
+}
+
+.signuppage button:hover{
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: #159895;
+    transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 500px) and (max-width: 1300px) {
+    .navleft a {
+        padding: 10px 15px;
+    }
+    .homepage h1 {
+        margin: 50px 0 20px 0;
+        font-size: 250%;
+    }
+
+    .homepage h3 {
+        font-size: 120%;
+        margin: 20px 0 0 0;
+    }
+
+    .loginpage, .signuppage {
+        height: 450px;
+        width: 70%;
+        margin: 50px auto;
+    }
+
+    .loginpage input, .signuppage input {
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .loginpage button, .signuppage button {
+        width: 85%;
+    }
+
+    .logo{
+        padding: 20px 20px 20px 20px ;
+    }
+
+    
+.email1+p{
+    visibility: hidden;
+}
+
+
+.email2+p{
+    visibility: hidden;
+}
+    
+}

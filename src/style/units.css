@@ -1,0 +1,25 @@
+.units{
+    display: flex;
+    background: linear-gradient(90deg,#35A29F,#64CCC5); 
+    justify-content: space-around;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.units a{
+    color: whitesmoke;
+}
+
+.units a:hover{
+    color: #97FEED; 
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+} 
+
+@media (min-width: 500px) and (max-width: 1300px) {
+    .units{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+}

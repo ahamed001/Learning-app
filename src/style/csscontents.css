@@ -1,0 +1,756 @@
+.cssintro{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.cssintro span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.cssintro p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.cssintro img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.cssintro h2{
+    font-weight: 500;
+}
+
+.cssintro .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+.cssintro li{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.cssintro .note a{
+    padding: 10px 0px 10px 4px;
+    color: #159895;
+    text-decoration: underline;
+}
+
+.grid{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.grid span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.grid p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.grid h2{
+    font-weight: 500;
+}
+
+.grid .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+.animation{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.animation span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.animation p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.animation img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.animation h2{
+    font-weight: 500;
+}
+
+.animation .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+.animation li{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.flex{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.flex span{
+  color: crimson;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  padding: 0 5px 0 5px;
+}
+
+.flex p{
+  margin: 0 0px 0 30px;
+  padding: 5px 0 10px 0;
+  font-weight: 400;
+}
+
+.flex img{
+  border-radius: 10px;
+  margin: 10px 0 10px 30px;
+  box-shadow: 5px 5px 5px  #333;
+  border-style: groove;
+}
+
+.flex h2{
+  font-weight: 500;
+}
+
+.flex li{
+  margin: 0 0 0 30px;
+  padding: 5px 0 10px 0;
+  font-weight: 400;
+}
+
+.tooltip{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.tooltip span{
+  color: crimson;
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  padding: 0 5px 0 5px;
+}
+
+.tooltip p{
+  margin: 0 0px 0 30px;
+  padding: 5px 0 10px 0;
+  font-weight: 400;
+}
+
+.tooltip img{
+  border-radius: 10px;
+  margin: 10px 0 10px 30px;
+  box-shadow: 5px 5px 5px  #333;
+  border-style: groove;
+}
+
+.tooltip h2{
+  font-weight: 500;
+}
+
+.tooltipex{
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tooltip button{
+  height: 40px;
+  width: 130px;
+  font-size: medium;
+  font-weight: 600;
+  color: white; 
+  background-color: #64CCC5;
+  border-radius: 50px;
+  border: none; 
+  margin: 0 0 5% 45%;
+ }
+ 
+.tooltip button:hover{
+     color: #159895; 
+     background-color: #B9EDDD;
+     transition: 0.3s ease-in-out;
+ }
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #1bd7d4;
+    padding: 10px;
+  }
+  
+  .grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: #1bd7d4;
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+.grid-container3 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+    gap: 10px;
+    background-color: #1bd7d4;
+    padding: 10px;
+  }
+  
+  .grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  
+.grid-container4 {
+    display: grid;
+    height: 300px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #1bd7d4;
+    padding: 10px;
+  }
+  
+  .grid-container4 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+  .flex-container1 {
+    display: flex;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container1 > div {
+    background-color: #1bd7d4;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+ 
+.flex-container2 {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container2 >div {
+    background-color: #1bd7d4;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+.flex-container3 {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container3 > div {
+    background-color: #1bd7d4;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+.flex-container4 {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container4 >div {
+    background-color: #1bd7d4;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+.flex-container5 {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container5 > div {
+  background-color: #1bd7d4;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container6 {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container6 > div {
+  background-color: #1bd7d4;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+  .animated_div {
+    width: 45px;
+    height: 24px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: animated_div 5s 1;
+    border-radius: 5px;
+}
+   
+    @keyframes animated_div
+    {
+    0% {transform: rotate(0deg);left:0px;}
+    25% {transform: rotate(20deg);left:0px;}
+    50% {transform: rotate(0deg);left:500px;}
+    55% {transform: rotate(0deg);left:500px;}
+    70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+    100% {transform: rotate(-360deg);left:0px;}
+    }
+    
+    .color {
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+      
+      @keyframes example {
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
+      
+    
+.delay {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }  
+
+  .run {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .reverse {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .alternate {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .alternate-reverse {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .shorthand {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  
+.shorthand_used {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 210px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+  color: #159895;
+  background-color: #B9EDDD;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 40px 80px 40px 80px;
+}
+
+  .tooltip1 .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .tooltip1 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+.tooltip1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  color: #159895;
+  background-color: #B9EDDD;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 40px 80px 40px 80px;
+}
+
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip2 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  color: #159895;
+  background-color: #B9EDDD;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 40px 80px 40px 80px;
+}
+
+.tooltip3 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip3 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip3:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip4 {
+  position: relative;
+  display: inline-block;
+  color: #159895;
+  background-color: #B9EDDD;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 40px 80px 40px 80px;
+}
+
+.tooltip4 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+
+.tooltip4 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+.tooltip4:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip5 {
+  position: relative;
+  display: inline-block;
+  color: #159895;
+  background-color: #B9EDDD;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin: 40px 10px 40px 82px;
+}
+
+.tooltip5 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin: 0 0 10px -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip5:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

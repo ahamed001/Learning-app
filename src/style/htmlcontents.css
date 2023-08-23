@@ -1,0 +1,227 @@
+.intro{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.intro span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.intro p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.intro li{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.intro h3{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.intro h4{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.intro img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.intro h2{
+    font-weight: 500;
+}
+
+.intro .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    margin: 10px 0 10px 20px;
+    border-radius: 50px;
+}
+
+.tables{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.tables span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.tables p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.tables img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.tables h2{
+    font-weight: 500;
+}
+
+.tables .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+.forms{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.forms span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.forms p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.forms img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.forms h2{
+    font-weight: 500;
+}
+
+.formop{
+    margin: 10px 0 10px 50px;
+}
+
+.graphics{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.graphics span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.graphics p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.graphics img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.graphics h2{
+    font-weight: 500;
+}
+
+.graphics .note{
+    background-color: #B9EDDD;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+.lists{
+    z-index: -1;
+    color: #333;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 2%;
+}
+
+.lists span{
+    color: crimson;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px 0 5px;
+}
+
+.lists p{
+    margin: 0 0px 0 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 400;
+}
+
+.lists img{
+    border-radius: 10px;
+    margin: 10px 0 10px 30px;
+    box-shadow: 5px 5px 5px  #333;
+    border-style: groove;
+}
+
+.lists h2{
+    font-weight: 500;
+}
+
+ .lists li{
+    margin: 0 0 0 30px;
+}
+
+.lists button{
+     height: 40px;
+     width: 130px;
+     font-size: medium;
+     font-weight: 600;
+     color: white; 
+     background-color: #64CCC5;
+     border-radius: 50px;
+     border: none;
+     margin: 0 0 6% 75%;
+    }
+    
+.lists button:hover{
+        color: #159895; 
+        background-color: #B9EDDD;
+        transition: 0.3s ease-in-out;
+    }
