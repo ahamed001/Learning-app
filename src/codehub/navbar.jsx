@@ -26,8 +26,6 @@ let Navbar=()=>{
         </div>
         </div>
 
-       
-
     )
 }
 
